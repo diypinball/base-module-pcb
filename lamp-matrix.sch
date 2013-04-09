@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/8/2013 11:50:23 PM
+EESchema Schematic File Version 2  date 4/9/2013 12:24:46 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,7 +33,7 @@ EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date "9 apr 2013"
 Rev ""
@@ -43,4 +43,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1800 2500 0    60   Input ~ 0
+ROW0
+Text HLabel 1800 2600 0    60   Input ~ 0
+ROW1
+Text HLabel 1800 2700 0    60   Input ~ 0
+ROW2
+Text HLabel 1800 2800 0    60   Input ~ 0
+ROW3
+Text HLabel 1800 3000 0    60   Input ~ 0
+COL0
+Text HLabel 1800 3100 0    60   Input ~ 0
+COL1
+Text HLabel 1800 3200 0    60   Input ~ 0
+COL2
+Text HLabel 1800 3300 0    60   Input ~ 0
+COL3
+Text HLabel 1800 3500 0    60   Output ~ 0
+LAMP_CURRENT
 $EndSCHEMATC
