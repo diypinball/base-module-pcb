@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/9/2013 9:31:04 PM
+EESchema Schematic File Version 2  date 4/10/2013 12:44:15 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:pinball_components
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END

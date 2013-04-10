@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0  Date: 4/10/2013 12:32:27 AM
+#
+$CMP DUAL_MOSFET_N
+F transistors/mos/*.*
+$ENDCMP
+#
+#End Doc Library
