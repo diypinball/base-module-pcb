@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/14/2013 3:47:51 AM
+EESchema Schematic File Version 2  date 4/14/2013 1:14:12 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title ""
 Date "14 apr 2013"
 Rev ""
@@ -474,34 +474,4 @@ Text HLabel 2400 3050 0    60   BiDi ~ 0
 CANH
 Text HLabel 2400 4050 0    60   BiDi ~ 0
 CANL
-Text HLabel 2300 700  0    60   Input ~ 0
-+3.3V
-Text HLabel 2300 800  0    60   Input ~ 0
-+5V
-$Comp
-L +3.3V #PWR?
-U 1 1 516AB06C
-P 2400 700
-F 0 "#PWR?" H 2400 660 30  0001 C CNN
-F 1 "+3.3V" H 2400 810 30  0000 C CNN
-F 2 "" H 2400 700 60  0000 C CNN
-F 3 "" H 2400 700 60  0000 C CNN
-	1    2400 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 516AB072
-P 2550 800
-F 0 "#PWR?" H 2550 890 20  0001 C CNN
-F 1 "+5V" H 2550 890 30  0000 C CNN
-F 2 "" H 2550 800 60  0000 C CNN
-F 3 "" H 2550 800 60  0000 C CNN
-	1    2550 800 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 800  2550 800 
-Wire Wire Line
-	2400 700  2300 700 
 $EndSCHEMATC

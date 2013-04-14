@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/14/2013 3:47:51 AM
+EESchema Schematic File Version 2  date 4/14/2013 1:14:12 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date "14 apr 2013"
 Rev ""
@@ -95,33 +95,16 @@ S 3550 1400 1950 2800
 U 516A58DE
 F0 "Controller" 50
 F1 "LPC11C24.sch" 50
-F2 "CANH" B R 5500 1550 60 
-F3 "CANL" B R 5500 1650 60 
-F4 "+3.3V" I L 3550 1550 60 
-F5 "+5V" I L 3550 1650 60 
+F2 "CANH" B L 3550 2050 60 
+F3 "CANL" B L 3550 2150 60 
 $EndSheet
 $Sheet
-S 2050 1450 1300 400 
-U 51638FEE
-F0 "PowerSupply" 50
-F1 "power-supply.sch" 50
-F2 "50V" U L 2050 1550 60 
-F3 "12V" U L 2050 1650 60 
-F4 "GND" U L 2050 1750 60 
-F5 "+3.3V" O R 3350 1550 60 
-F6 "+5V" O R 3350 1650 60 
-$EndSheet
-Wire Wire Line
-	3350 1550 3550 1550
-Wire Wire Line
-	3550 1650 3350 1650
-$Sheet
-S 1000 1450 850  550 
+S 1000 1450 850  1000
 U 516AEB88
 F0 "StandardConnectors" 50
 F1 "standard_connector.sch" 50
-F2 "CANH" B L 1000 1550 60 
-F3 "CANL" B L 1000 1650 60 
+F2 "CANH" B R 1850 2150 60 
+F3 "CANL" B R 1850 2250 60 
 F4 "50V" O R 1850 1550 60 
 F5 "12V" O R 1850 1650 60 
 F6 "GND" O R 1850 1750 60 
@@ -132,4 +115,25 @@ Wire Wire Line
 	1850 1650 2050 1650
 Wire Wire Line
 	1850 1550 2050 1550
+$Sheet
+S 2050 1450 1300 400 
+U 51638FEE
+F0 "PowerSupply" 50
+F1 "power-supply.sch" 50
+F2 "50V" U L 2050 1550 60 
+F3 "12V" U L 2050 1650 60 
+F4 "GND" U L 2050 1750 60 
+$EndSheet
+Wire Wire Line
+	3200 2150 1850 2150
+Wire Wire Line
+	3200 2050 3200 2150
+Wire Wire Line
+	3200 2050 3550 2050
+Wire Wire Line
+	3550 2150 3300 2150
+Wire Wire Line
+	3300 2150 3300 2250
+Wire Wire Line
+	3300 2250 1850 2250
 $EndSCHEMATC
