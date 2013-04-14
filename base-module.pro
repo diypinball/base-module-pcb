@@ -1,4 +1,4 @@
-update=4/10/2013 12:15:00 AM
+update=4/14/2013 3:00:30 AM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -40,7 +40,7 @@ LibName11=valves
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../Bitbucket
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -78,3 +78,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=pinball_components
+LibName32=micro-controller

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/13/2013 6:56:07 PM
+EESchema Schematic File Version 2  date 4/14/2013 3:01:00 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:pinball_components
+LIBS:micro-controller
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
-Date "13 apr 2013"
+Date "14 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -97,5 +98,11 @@ F7 "SOLENOID5" I L 8800 5200 60
 F8 "SOLENOID6" I L 8800 5300 60 
 F9 "SOLENOID7" I L 8800 5400 60 
 F10 "SOLENOID_CURRENT" O L 8800 5600 60 
+$EndSheet
+$Sheet
+S 8750 1950 1250 450 
+U 516A58DE
+F0 "Controller" 50
+F1 "LPC11C24.sch" 50
 $EndSheet
 $EndSCHEMATC
