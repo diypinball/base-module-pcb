@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/15/2013 12:46:04 AM
+EESchema Schematic File Version 2  date 4/15/2013 1:22:57 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -474,4 +474,36 @@ Text HLabel 2400 3050 0    60   BiDi ~ 0
 CANH
 Text HLabel 2400 4050 0    60   BiDi ~ 0
 CANL
+Text HLabel 10900 1600 0    60   Output ~ 0
+SW_ROW_0
+Text HLabel 10900 1700 0    60   Output ~ 0
+SW_ROW_1
+Text HLabel 10900 1800 0    60   Output ~ 0
+SW_ROW_2
+Text HLabel 10900 1900 0    60   Output ~ 0
+SW_ROW_3
+Text HLabel 10900 2100 0    60   Output ~ 0
+SW_COL_0
+Text HLabel 10900 2200 0    60   Output ~ 0
+SW_COL_1
+Text HLabel 10900 2300 0    60   Output ~ 0
+SW_COL_2
+Text HLabel 10900 2400 0    60   Output ~ 0
+SW_COL_3
+Text HLabel 10900 2600 0    60   Output ~ 0
+LP_ROW_0
+Text HLabel 10900 2700 0    60   Output ~ 0
+LP_ROW_1
+Text HLabel 10900 2800 0    60   Output ~ 0
+LP_ROW_2
+Text HLabel 10900 2900 0    60   Output ~ 0
+LP_ROW_3
+Text HLabel 10900 3050 0    60   Output ~ 0
+LP_COL_0
+Text HLabel 10900 3150 0    60   Output ~ 0
+LP_COL_1
+Text HLabel 10900 3250 0    60   Output ~ 0
+LP_COL_2
+Text HLabel 10900 3350 0    60   Output ~ 0
+LP_COL_3
 $EndSCHEMATC
