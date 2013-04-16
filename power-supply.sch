@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/16/2013 12:48:50 AM
+EESchema Schematic File Version 2  date 4/16/2013 2:34:18 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 10
 Title ""
 Date "16 apr 2013"
 Rev ""
@@ -318,6 +318,52 @@ F 3 "~" H 3700 3750 60  0000 C CNN
 $EndComp
 Text HLabel 1400 2950 0    60   Input ~ 0
 Power_EN
+Text GLabel 2750 2800 2    60   Output ~ 0
+SOL_PWR_F
+$Comp
+L FUSE F?
+U 1 1 516D27EC
+P 1750 3050
+F 0 "F?" H 1850 3100 40  0000 C CNN
+F 1 "40A" H 1650 3000 40  0000 C CNN
+F 2 "~" H 1750 3050 60  0000 C CNN
+F 3 "~" H 1750 3050 60  0000 C CNN
+	1    1750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F?
+U 1 1 516D2839
+P 2200 3150
+F 0 "F?" H 2300 3200 40  0000 C CNN
+F 1 "40A" H 2100 3100 40  0000 C CNN
+F 2 "~" H 2200 3150 60  0000 C CNN
+F 3 "~" H 2200 3150 60  0000 C CNN
+	1    2200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L RT7247AHGSP U?
+U 1 1 516D4B84
+P 4600 3350
+F 0 "U?" H 4350 3900 60  0000 C CNN
+F 1 "RT7247AHGSP" H 4600 4000 60  0000 C CNN
+F 2 "~" H 4600 3350 60  0000 C CNN
+F 3 "~" H 4600 3350 60  0000 C CNN
+	1    4600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 516D7A31
+P 2800 3100
+F 0 "#PWR?" H 2800 3050 20  0001 C CNN
+F 1 "+12V" H 2800 3200 30  0000 C CNN
+F 2 "" H 2800 3100 60  0000 C CNN
+F 3 "" H 2800 3100 60  0000 C CNN
+	1    2800 3100
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3000 3750 3000 4100
 Wire Wire Line
@@ -429,49 +475,17 @@ Wire Wire Line
 Connection ~ 3000 3150
 Wire Wire Line
 	2650 3050 2650 2800
-Text GLabel 2750 2800 2    60   Output ~ 0
-SOL_PWR
 Wire Wire Line
 	2650 2800 2750 2800
-$Comp
-L FUSE F?
-U 1 1 516D27EC
-P 1750 3050
-F 0 "F?" H 1850 3100 40  0000 C CNN
-F 1 "FUSE" H 1650 3000 40  0000 C CNN
-F 2 "~" H 1750 3050 60  0000 C CNN
-F 3 "~" H 1750 3050 60  0000 C CNN
-	1    1750 3050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 3150 2450 3150
-$Comp
-L FUSE F?
-U 1 1 516D2839
-P 2200 3150
-F 0 "F?" H 2300 3200 40  0000 C CNN
-F 1 "FUSE" H 2100 3100 40  0000 C CNN
-F 2 "~" H 2200 3150 60  0000 C CNN
-F 3 "~" H 2200 3150 60  0000 C CNN
-	1    2200 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1950 3150 1400 3150
 Wire Wire Line
 	1500 3050 1400 3050
 Wire Wire Line
 	2000 3050 2650 3050
-$Comp
-L RT7247AHGSP U?
-U 1 1 516D349F
-P 4600 3350
-F 0 "U?" H 4350 3900 60  0000 C CNN
-F 1 "RT7247AHGSP" H 4600 4000 60  0000 C CNN
-F 2 "" H 4600 3350 60  0000 C CNN
-F 3 "" H 4600 3350 60  0000 C CNN
-	1    4600 3350
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	2800 3100 2800 3150
+Connection ~ 2800 3150
 $EndSCHEMATC
