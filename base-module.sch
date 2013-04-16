@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/15/2013 1:22:57 AM
+EESchema Schematic File Version 2  date 4/16/2013 12:48:50 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,14 +31,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:pinball_components
 LIBS:micro-controller
+LIBS:CurrentSense
+LIBS:pinball-power
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
-Date "15 apr 2013"
+Date "16 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -98,23 +100,10 @@ F1 "LPC11C24.sch" 50
 F2 "CANH" B L 3550 2050 60 
 F3 "CANL" B L 3550 2150 60 
 $EndSheet
-$Sheet
-S 1000 1450 850  1000
-U 516AEB88
-F0 "StandardConnectors" 50
-F1 "standard_connector.sch" 50
-F2 "CANH" B R 1850 2150 60 
-F3 "CANL" B R 1850 2250 60 
-F4 "50V" O R 1850 1550 60 
-F5 "12V" O R 1850 1650 60 
-F6 "GND" O R 1850 1750 60 
-$EndSheet
 Wire Wire Line
-	1850 1750 2050 1750
+	1450 1650 2050 1650
 Wire Wire Line
-	1850 1650 2050 1650
-Wire Wire Line
-	1850 1550 2050 1550
+	1450 1550 2050 1550
 $Sheet
 S 2050 1450 1300 400 
 U 51638FEE
@@ -122,10 +111,9 @@ F0 "PowerSupply" 50
 F1 "power-supply.sch" 50
 F2 "50V" U L 2050 1550 60 
 F3 "12V" U L 2050 1650 60 
-F4 "GND" U L 2050 1750 60 
 $EndSheet
 Wire Wire Line
-	3200 2150 1850 2150
+	3200 2150 1450 2150
 Wire Wire Line
 	3200 2050 3200 2150
 Wire Wire Line
@@ -135,5 +123,24 @@ Wire Wire Line
 Wire Wire Line
 	3300 2150 3300 2250
 Wire Wire Line
-	3300 2250 1850 2250
+	3300 2250 1450 2250
+$Sheet
+S 6950 2350 1100 300 
+U 516CAB4E
+F0 "CurrentSense" 50
+F1 "CurrentSense.sch" 50
+F2 "PWR_IN" I L 6950 2500 60 
+F3 "PWR_OUT" O R 8050 2500 60 
+F4 "SNS_OUT" O R 8050 2600 60 
+$EndSheet
+$Sheet
+S 600  1450 850  1000
+U 516AEB88
+F0 "StandardConnectors" 50
+F1 "standard_connector.sch" 50
+F2 "PWR_SOL_IN" O R 1450 1550 60 
+F3 "CANH" B R 1450 2150 60 
+F4 "CANL" B R 1450 2250 60 
+F5 "12V" O R 1450 1650 60 
+$EndSheet
 $EndSCHEMATC

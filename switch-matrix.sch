@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/15/2013 1:22:57 AM
+EESchema Schematic File Version 2  date 4/16/2013 12:48:50 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,14 +31,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:pinball_components
 LIBS:micro-controller
+LIBS:CurrentSense
+LIBS:pinball-power
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title ""
-Date "15 apr 2013"
+Date "16 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""

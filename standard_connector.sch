@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/15/2013 1:22:57 AM
+EESchema Schematic File Version 2  date 4/16/2013 12:48:50 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,14 +31,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:pinball_components
 LIBS:micro-controller
+LIBS:CurrentSense
+LIBS:pinball-power
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 8 8
 Title ""
-Date "15 apr 2013"
+Date "16 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,4 +48,46 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 4950 2150 2    60   Output ~ 0
+PWR_SOL_IN
+Text HLabel 4950 2250 2    60   Output ~ 0
+12V
+Text HLabel 4950 2350 2    60   BiDi ~ 0
+CANH
+Text HLabel 4950 2450 2    60   BiDi ~ 0
+CANL
+Wire Wire Line
+	4950 2450 3450 2450
+Wire Wire Line
+	4950 2350 3450 2350
+Wire Wire Line
+	3450 2250 4950 2250
+Wire Wire Line
+	3450 2150 4950 2150
+$Comp
+L CONN_5 P?
+U 1 1 516CDA4B
+P 3050 2350
+F 0 "P?" V 3000 2350 50  0000 C CNN
+F 1 "CONN_5" V 3100 2350 50  0000 C CNN
+F 2 "" H 3050 2350 60  0000 C CNN
+F 3 "" H 3050 2350 60  0000 C CNN
+	1    3050 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 516CDA73
+P 3500 2600
+F 0 "#PWR?" H 3500 2600 30  0001 C CNN
+F 1 "GND" H 3500 2530 30  0001 C CNN
+F 2 "" H 3500 2600 60  0000 C CNN
+F 3 "" H 3500 2600 60  0000 C CNN
+	1    3500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2600 3500 2550
+Wire Wire Line
+	3500 2550 3450 2550
 $EndSCHEMATC

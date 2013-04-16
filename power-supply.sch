@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/15/2013 1:22:57 AM
+EESchema Schematic File Version 2  date 4/16/2013 12:48:50 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,14 +31,16 @@ LIBS:contrib
 LIBS:valves
 LIBS:pinball_components
 LIBS:micro-controller
+LIBS:CurrentSense
+LIBS:pinball-power
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 8
 Title ""
-Date "15 apr 2013"
+Date "16 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,23 +48,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2350 3050 0    60   UnSpc ~ 0
+Text HLabel 1400 3050 0    60   UnSpc ~ 0
 50V
-Text HLabel 2350 3150 0    60   UnSpc ~ 0
+Text HLabel 1400 3150 0    60   UnSpc ~ 0
 12V
-Text HLabel 2350 3250 0    60   UnSpc ~ 0
-GND
-$Comp
-L RT7247AHGSP U?
-U 1 1 516B7ABB
-P 4650 3400
-F 0 "U?" H 4450 3000 60  0000 C CNN
-F 1 "RT7247AHGSP" H 4600 3900 60  0000 C CNN
-F 2 "" H 4650 3400 60  0000 C CNN
-F 3 "" H 4650 3400 60  0000 C CNN
-	1    4650 3400
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C?
 U 1 1 516B7ACF
@@ -206,92 +195,6 @@ F 3 "~" H 7000 3600 60  0000 C CNN
 	1    7000 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2350 3150 3200 3150
-Wire Wire Line
-	3200 3150 4050 3150
-Wire Wire Line
-	3000 3750 3000 3950
-Wire Wire Line
-	3000 3950 3000 4100
-Wire Wire Line
-	3000 3350 3000 3150
-Wire Wire Line
-	3900 3550 3900 3450
-Wire Wire Line
-	3900 3450 4050 3450
-Wire Wire Line
-	4050 4000 4050 3550
-Wire Wire Line
-	3000 3950 3250 3950
-Wire Wire Line
-	3250 4000 3700 4000
-Wire Wire Line
-	3700 4000 3900 4000
-Wire Wire Line
-	3900 4000 4050 4000
-Wire Wire Line
-	3900 4000 3900 3950
-Connection ~ 3000 3950
-Wire Wire Line
-	5300 3600 5300 3550
-Wire Wire Line
-	5250 3550 5300 3550
-Wire Wire Line
-	5300 3550 5550 3550
-Wire Wire Line
-	5550 3550 5550 3600
-Connection ~ 5300 3550
-Wire Wire Line
-	5550 4600 5550 4000
-Wire Wire Line
-	5300 4600 5400 4600
-Wire Wire Line
-	5400 4600 5550 4600
-Wire Wire Line
-	5300 4600 5300 4550
-Wire Wire Line
-	5300 4050 5300 4000
-Wire Wire Line
-	5250 3300 5800 3300
-Wire Wire Line
-	5800 3300 5950 3300
-Wire Wire Line
-	5250 3450 5800 3450
-Wire Wire Line
-	5800 4000 6650 4000
-Wire Wire Line
-	6650 3900 6650 4000
-Wire Wire Line
-	6650 4000 6650 4100
-Connection ~ 6650 4000
-Wire Wire Line
-	6650 3400 6650 3300
-Wire Wire Line
-	6550 3300 6650 3300
-Wire Wire Line
-	6650 3300 7000 3300
-Wire Wire Line
-	7000 3300 7150 3300
-Wire Wire Line
-	7150 3300 7250 3300
-Wire Wire Line
-	5800 3450 5800 4000
-Wire Wire Line
-	5250 3150 5300 3150
-Wire Wire Line
-	5300 3150 5350 3150
-Wire Wire Line
-	5800 3150 5750 3150
-Wire Wire Line
-	5800 3300 5800 3150
-Connection ~ 5800 3300
-Wire Wire Line
-	6650 4750 6650 4600
-Wire Wire Line
-	5400 4750 5400 4600
-Connection ~ 5400 4600
-Connection ~ 6650 3300
 $Comp
 L GND #PWR?
 U 1 1 516B7DE8
@@ -303,8 +206,6 @@ F 3 "" H 7000 3850 60  0000 C CNN
 	1    7000 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 3850 7000 3800
 $Comp
 L +5V #PWR?
 U 1 1 516B7E14
@@ -316,11 +217,6 @@ F 3 "" H 7150 3200 60  0000 C CNN
 	1    7150 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 3300 7150 3200
-Wire Wire Line
-	7000 3400 7000 3300
-Connection ~ 7000 3300
 $Comp
 L LM137H U?
 U 1 1 516B7E76
@@ -332,7 +228,6 @@ F 3 "~" H 7650 3250 60  0000 C CNN
 	1    7650 3250
 	1    0    0    -1  
 $EndComp
-Connection ~ 7150 3300
 $Comp
 L GND #PWR?
 U 1 1 516B7EDB
@@ -344,12 +239,6 @@ F 3 "" H 7850 2950 60  0000 C CNN
 	1    7850 2950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7850 2950 7850 2850
-Wire Wire Line
-	7850 2850 7650 2850
-Wire Wire Line
-	7650 2850 7650 3000
 $Comp
 L +3.3V #PWR?
 U 1 1 516B7F0C
@@ -361,12 +250,6 @@ F 3 "" H 8150 3200 60  0000 C CNN
 	1    8150 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8050 3300 8150 3300
-Wire Wire Line
-	8150 3200 8150 3300
-Wire Wire Line
-	8150 3300 8150 3350
 $Comp
 L C C?
 U 1 1 516B7F44
@@ -389,9 +272,6 @@ F 3 "" H 8150 3850 60  0000 C CNN
 	1    8150 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8150 3850 8150 3750
-Connection ~ 8150 3300
 $Comp
 L R R?
 U 1 1 516B81BC
@@ -403,30 +283,6 @@ F 3 "~" H 3550 3350 30  0000 C CNN
 	1    3550 3350
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3300 3350 3200 3350
-Wire Wire Line
-	3200 3350 3200 3150
-Connection ~ 3200 3150
-Wire Wire Line
-	3800 3350 3850 3350
-Wire Wire Line
-	3850 3350 4050 3350
-$Comp
-L GND #PWR?
-U 1 1 516B82F2
-P 2400 3350
-F 0 "#PWR?" H 2400 3350 30  0001 C CNN
-F 1 "GND" H 2400 3280 30  0001 C CNN
-F 2 "" H 2400 3350 60  0000 C CNN
-F 3 "" H 2400 3350 60  0000 C CNN
-	1    2400 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 3350 2400 3250
-Wire Wire Line
-	2400 3250 2350 3250
 $Comp
 L DIODE D?
 U 1 1 516B8761
@@ -438,9 +294,6 @@ F 3 "~" H 5300 2900 60  0000 C CNN
 	1    5300 2900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5300 3100 5300 3150
-Connection ~ 5300 3150
 $Comp
 L +5V #PWR?
 U 1 1 516B87A2
@@ -452,8 +305,6 @@ F 3 "" H 5300 2650 60  0000 C CNN
 	1    5300 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 2700 5300 2650
 $Comp
 L C C?
 U 1 1 516B8BF3
@@ -465,6 +316,101 @@ F 3 "~" H 3700 3750 60  0000 C CNN
 	1    3700 3750
 	1    0    0    -1  
 $EndComp
+Text HLabel 1400 2950 0    60   Input ~ 0
+Power_EN
+Wire Wire Line
+	3000 3750 3000 4100
+Wire Wire Line
+	3000 3350 3000 3150
+Wire Wire Line
+	3900 3550 3900 3450
+Wire Wire Line
+	3900 3450 4050 3450
+Wire Wire Line
+	4050 4000 4050 3550
+Wire Wire Line
+	3000 3950 3250 3950
+Wire Wire Line
+	3250 4000 4050 4000
+Wire Wire Line
+	3900 4000 3900 3950
+Connection ~ 3000 3950
+Wire Wire Line
+	5300 3600 5300 3550
+Wire Wire Line
+	5250 3550 5550 3550
+Wire Wire Line
+	5550 3550 5550 3600
+Connection ~ 5300 3550
+Wire Wire Line
+	5550 4600 5550 4000
+Wire Wire Line
+	5300 4600 5550 4600
+Wire Wire Line
+	5300 4600 5300 4550
+Wire Wire Line
+	5300 4050 5300 4000
+Wire Wire Line
+	5250 3300 5950 3300
+Wire Wire Line
+	5250 3450 5800 3450
+Wire Wire Line
+	5800 4000 6650 4000
+Wire Wire Line
+	6650 3900 6650 4100
+Connection ~ 6650 4000
+Wire Wire Line
+	6650 3400 6650 3300
+Wire Wire Line
+	6550 3300 7250 3300
+Wire Wire Line
+	5800 3450 5800 4000
+Wire Wire Line
+	5250 3150 5350 3150
+Wire Wire Line
+	5800 3150 5750 3150
+Wire Wire Line
+	5800 3300 5800 3150
+Connection ~ 5800 3300
+Wire Wire Line
+	6650 4750 6650 4600
+Wire Wire Line
+	5400 4750 5400 4600
+Connection ~ 5400 4600
+Connection ~ 6650 3300
+Wire Wire Line
+	7000 3850 7000 3800
+Wire Wire Line
+	7150 3300 7150 3200
+Wire Wire Line
+	7000 3400 7000 3300
+Connection ~ 7000 3300
+Connection ~ 7150 3300
+Wire Wire Line
+	7850 2950 7850 2850
+Wire Wire Line
+	7850 2850 7650 2850
+Wire Wire Line
+	7650 2850 7650 3000
+Wire Wire Line
+	8050 3300 8150 3300
+Wire Wire Line
+	8150 3200 8150 3350
+Wire Wire Line
+	8150 3850 8150 3750
+Connection ~ 8150 3300
+Wire Wire Line
+	3300 3350 3200 3350
+Wire Wire Line
+	3200 3350 3200 3150
+Connection ~ 3200 3150
+Wire Wire Line
+	3800 3350 4050 3350
+Wire Wire Line
+	5300 3100 5300 3150
+Connection ~ 5300 3150
+Wire Wire Line
+	5300 2700 5300 2650
 Wire Wire Line
 	3250 3950 3250 4000
 Connection ~ 3900 4000
@@ -474,14 +420,58 @@ Connection ~ 3700 4000
 Wire Wire Line
 	3700 3550 3700 3450
 Wire Wire Line
-	3850 3450 3700 3450
+	3700 3450 3850 3450
 Wire Wire Line
-	3850 2950 3850 3350
-Wire Wire Line
-	3850 3350 3850 3450
+	3850 3450 3850 2950
 Connection ~ 3850 3350
-Text HLabel 2350 2950 0    60   Input ~ 0
-Power_EN
 Wire Wire Line
-	2350 2950 3850 2950
+	3850 2950 1400 2950
+Connection ~ 3000 3150
+Wire Wire Line
+	2650 3050 2650 2800
+Text GLabel 2750 2800 2    60   Output ~ 0
+SOL_PWR
+Wire Wire Line
+	2650 2800 2750 2800
+$Comp
+L FUSE F?
+U 1 1 516D27EC
+P 1750 3050
+F 0 "F?" H 1850 3100 40  0000 C CNN
+F 1 "FUSE" H 1650 3000 40  0000 C CNN
+F 2 "~" H 1750 3050 60  0000 C CNN
+F 3 "~" H 1750 3050 60  0000 C CNN
+	1    1750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3150 2450 3150
+$Comp
+L FUSE F?
+U 1 1 516D2839
+P 2200 3150
+F 0 "F?" H 2300 3200 40  0000 C CNN
+F 1 "FUSE" H 2100 3100 40  0000 C CNN
+F 2 "~" H 2200 3150 60  0000 C CNN
+F 3 "~" H 2200 3150 60  0000 C CNN
+	1    2200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3150 1400 3150
+Wire Wire Line
+	1500 3050 1400 3050
+Wire Wire Line
+	2000 3050 2650 3050
+$Comp
+L RT7247AHGSP U?
+U 1 1 516D349F
+P 4600 3350
+F 0 "U?" H 4350 3900 60  0000 C CNN
+F 1 "RT7247AHGSP" H 4600 4000 60  0000 C CNN
+F 2 "" H 4600 3350 60  0000 C CNN
+F 3 "" H 4600 3350 60  0000 C CNN
+	1    4600 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
