@@ -1,4 +1,4 @@
-update=4/16/2013 8:56:54 PM
+update=4/16/2013 11:34:53 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -40,7 +40,7 @@ LibName11=valves
 version=1
 [eeschema]
 version=1
-LibDir=../../Bitbucket
+LibDir=../../Bitbucket;../base-module-hardware
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -82,3 +82,5 @@ LibName32=micro-controller
 LibName33=CurrentSense
 LibName34=pinball-power
 LibName35=dips-s
+LibName36=Gajda_cmosieee
+LibName37=Gajda_ttlieee

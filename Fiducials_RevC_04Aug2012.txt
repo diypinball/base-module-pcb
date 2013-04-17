@@ -1,0 +1,40 @@
+# About
+Fiducials_RevC_04Aug2012.mod
+
+Superseedes the old Fiducial_RevB.xxx files from 16 Nov 2011.
+
+Contains the KiCAD module/footprint of some
+Fiducials. You can use them together with the symbol
+"Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" or
+Dummy_FIDUCIAL_Passermarke_Type2_RevE_Date16Nov2011".
+Of course, there are no fiducial symbols at the standard EN60617, but
+i thought they might be usefull.
+
+ 
+Fiducial_classic_big_CopperTop_Type1_RevC
+Fiducial_classic_big_CopperBottom_Type1_RevC
+Fiducial_classic_big_SilkscreenTop_Type1_RevC
+Fiducial_classic_Small_CopperTop_Type1_RevC
+Fiducial_classic_Small_CopperBottom_Type1_RevC
+Fiducial_classic_Small_SilkscreenTop_Type1_RevC
+Fiducial_classic_Small_CopperTop_Type2_RevC
+Fiducial_classic_Small_SilkscreenTop_Type2_RevC
+Fiducial_classic_Small_CopperBottom_Type2_RevC
+Fiducial_Modern_SilkscreenTop_RevC
+Fiducial_Modern_CopperTop_RevC
+Fiducial_Modern_CopperBottom_RevC
+Fiducial_classic_big_SilkscreenTop_Type2_RevC
+Fiducial_classic_big_CopperTop_Type2_RevC
+Fiducial_classic_big_CopperBottom_Type2_RevC
+
+There is also a PDF preview file named Fiducials_RevC_04Aug2012.pdf
+
+
+For suggestions and improvements please contact me at
+bernd.wiebus@gmx.de
+
+
+
+Author: Bernd Wiebus / Uedem / Germany / 04 Aug 2012
+GNU-GPL, NO WARRANTY!
+

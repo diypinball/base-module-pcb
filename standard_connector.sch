@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/16/2013 9:07:53 PM
+EESchema Schematic File Version 2  date 4/17/2013 1:22:00 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,6 +34,8 @@ LIBS:micro-controller
 LIBS:CurrentSense
 LIBS:pinball-power
 LIBS:dips-s
+LIBS:Gajda_cmosieee
+LIBS:Gajda_ttlieee
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END
@@ -66,10 +68,10 @@ Wire Wire Line
 Wire Wire Line
 	3450 2150 4950 2150
 $Comp
-L CONN_5 P?
+L CONN_5 P11
 U 1 1 516CDA4B
 P 3050 2350
-F 0 "P?" V 3000 2350 50  0000 C CNN
+F 0 "P11" V 3000 2350 50  0000 C CNN
 F 1 "CONN_5" V 3100 2350 50  0000 C CNN
 F 2 "" H 3050 2350 60  0000 C CNN
 F 3 "" H 3050 2350 60  0000 C CNN
@@ -77,10 +79,10 @@ F 3 "" H 3050 2350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR40
 U 1 1 516CDA73
 P 3500 2600
-F 0 "#PWR?" H 3500 2600 30  0001 C CNN
+F 0 "#PWR40" H 3500 2600 30  0001 C CNN
 F 1 "GND" H 3500 2530 30  0001 C CNN
 F 2 "" H 3500 2600 60  0000 C CNN
 F 3 "" H 3500 2600 60  0000 C CNN

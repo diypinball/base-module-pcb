@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/16/2013 9:07:53 PM
+EESchema Schematic File Version 2  date 4/17/2013 1:22:00 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,6 +34,8 @@ LIBS:micro-controller
 LIBS:CurrentSense
 LIBS:pinball-power
 LIBS:dips-s
+LIBS:Gajda_cmosieee
+LIBS:Gajda_ttlieee
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END
@@ -162,10 +164,10 @@ F3 "PWR_OUT" O R 8200 3800 60
 F4 "SENSE_OUT" O R 8200 3900 60 
 $EndSheet
 $Comp
-L +12V #PWR?
+L +12V #PWR1
 U 1 1 516D8357
 P 6850 3750
-F 0 "#PWR?" H 6850 3700 20  0001 C CNN
+F 0 "#PWR1" H 6850 3700 20  0001 C CNN
 F 1 "+12V" H 6850 3850 30  0000 C CNN
 F 2 "" H 6850 3750 60  0000 C CNN
 F 3 "" H 6850 3750 60  0000 C CNN
@@ -173,10 +175,10 @@ F 3 "" H 6850 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR?
+L +12V #PWR2
 U 1 1 516D85FA
 P 6900 1150
-F 0 "#PWR?" H 6900 1100 20  0001 C CNN
+F 0 "#PWR2" H 6900 1100 20  0001 C CNN
 F 1 "+12V" H 6900 1250 30  0000 C CNN
 F 2 "" H 6900 1150 60  0000 C CNN
 F 3 "" H 6900 1150 60  0000 C CNN
