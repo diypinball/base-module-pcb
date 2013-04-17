@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/16/2013 2:34:18 AM
+EESchema Schematic File Version 2  date 4/16/2013 9:07:53 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,14 +33,15 @@ LIBS:pinball_components
 LIBS:micro-controller
 LIBS:CurrentSense
 LIBS:pinball-power
+LIBS:dips-s
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 10 10
 Title ""
-Date "16 apr 2013"
+Date "17 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -476,44 +477,44 @@ Text HLabel 1300 3650 0    60   BiDi ~ 0
 CANH
 Text HLabel 1300 4650 0    60   BiDi ~ 0
 CANL
-Text HLabel 10900 1600 0    60   Output ~ 0
+Text HLabel 10400 1650 2    60   Output ~ 0
 SW_ROW_0
-Text HLabel 10900 1700 0    60   Output ~ 0
+Text HLabel 10400 1750 2    60   Output ~ 0
 SW_ROW_1
-Text HLabel 10900 1800 0    60   Output ~ 0
+Text HLabel 10400 1850 2    60   Output ~ 0
 SW_ROW_2
-Text HLabel 10900 1900 0    60   Output ~ 0
+Text HLabel 10400 1950 2    60   Output ~ 0
 SW_ROW_3
-Text HLabel 10900 2100 0    60   Output ~ 0
+Text HLabel 10400 2150 2    60   Output ~ 0
 SW_COL_0
-Text HLabel 10900 2200 0    60   Output ~ 0
+Text HLabel 10400 2250 2    60   Output ~ 0
 SW_COL_1
-Text HLabel 10900 2300 0    60   Output ~ 0
+Text HLabel 10400 2350 2    60   Output ~ 0
 SW_COL_2
-Text HLabel 10900 2400 0    60   Output ~ 0
+Text HLabel 10400 2450 2    60   Output ~ 0
 SW_COL_3
-Text HLabel 10900 2600 0    60   Output ~ 0
+Text HLabel 10400 2600 2    60   Output ~ 0
 LP_ROW_0
-Text HLabel 10900 2700 0    60   Output ~ 0
+Text HLabel 10400 2700 2    60   Output ~ 0
 LP_ROW_1
-Text HLabel 10900 2800 0    60   Output ~ 0
+Text HLabel 10400 2800 2    60   Output ~ 0
 LP_ROW_2
-Text HLabel 10900 2900 0    60   Output ~ 0
+Text HLabel 10400 2900 2    60   Output ~ 0
 LP_ROW_3
-Text HLabel 10900 3050 0    60   Output ~ 0
+Text HLabel 10400 3050 2    60   Output ~ 0
 LP_COL_0
-Text HLabel 10900 3150 0    60   Output ~ 0
+Text HLabel 10400 3150 2    60   Output ~ 0
 LP_COL_1
-Text HLabel 10900 3250 0    60   Output ~ 0
+Text HLabel 10400 3250 2    60   Output ~ 0
 LP_COL_2
-Text HLabel 10900 3350 0    60   Output ~ 0
+Text HLabel 10400 3350 2    60   Output ~ 0
 LP_COL_3
 Wire Wire Line
-	7000 3400 7700 3400
+	7000 3400 7950 3400
 Wire Wire Line
-	7700 3500 7000 3500
+	7000 3500 7950 3500
 Wire Wire Line
-	7000 3600 7700 3600
+	7000 3600 7950 3600
 Wire Wire Line
 	7700 3700 7000 3700
 Wire Wire Line
@@ -631,4 +632,48 @@ Wire Wire Line
 	7800 2200 7750 2200
 Wire Wire Line
 	7750 2200 7750 2100
+$Comp
+L DIPS_08 SW?
+U 1 1 516E9CFF
+P 9250 5700
+F 0 "SW?" V 8800 5700 60  0000 C CNN
+F 1 "DIPS_08" V 9700 5700 60  0000 C CNN
+F 2 "" H 9250 5700 60  0000 C CNN
+F 3 "" H 9250 5700 60  0000 C CNN
+	1    9250 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L DIPS_08 SW?
+U 1 1 516E9D16
+P 9250 6650
+F 0 "SW?" V 8800 6650 60  0000 C CNN
+F 1 "DIPS_08" V 9700 6650 60  0000 C CNN
+F 2 "" H 9250 6650 60  0000 C CNN
+F 3 "" H 9250 6650 60  0000 C CNN
+	1    9250 6650
+	0    1    1    0   
+$EndComp
+Text HLabel 7950 3400 2    60   Input ~ 0
+SOL_CURRENT
+Text HLabel 7950 3500 2    60   Input ~ 0
+LMP_CURRENT
+Text HLabel 7950 3600 2    60   Input ~ 0
+SWITCH_CURRENT
+Text HLabel 10400 3600 2    60   Output ~ 0
+SOL_0
+Text HLabel 10400 3700 2    60   Output ~ 0
+SOL_1
+Text HLabel 10400 3800 2    60   Output ~ 0
+SOL_2
+Text HLabel 10400 3900 2    60   Output ~ 0
+SOL_3
+Text HLabel 10400 4000 2    60   Output ~ 0
+SOL_4
+Text HLabel 10400 4100 2    60   Output ~ 0
+SOL_5
+Text HLabel 10400 4200 2    60   Output ~ 0
+SOL_6
+Text HLabel 10400 4300 2    60   Output ~ 0
+SOL_7
 $EndSCHEMATC

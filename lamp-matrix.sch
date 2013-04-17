@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/16/2013 2:34:18 AM
+EESchema Schematic File Version 2  date 4/16/2013 9:07:53 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,6 +33,7 @@ LIBS:pinball_components
 LIBS:micro-controller
 LIBS:CurrentSense
 LIBS:pinball-power
+LIBS:dips-s
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END
@@ -40,7 +41,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 3 10
 Title ""
-Date "16 apr 2013"
+Date "17 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -64,8 +65,6 @@ Text HLabel 1450 6550 0    60   Input ~ 0
 COL2
 Text HLabel 1450 6650 0    60   Input ~ 0
 COL3
-Text HLabel 1450 7550 0    60   Output ~ 0
-LAMP_CURRENT
 $Comp
 L NPN Q?
 U 1 1 516A19E5
@@ -370,12 +369,9 @@ Wire Wire Line
 	3050 5750 5750 5750
 Connection ~ 4550 5750
 Wire Wire Line
-	4550 5000 4550 5200
-Wire Wire Line
 	4550 5100 5150 5100
 Wire Wire Line
 	5150 5100 5150 5200
-Connection ~ 4550 5100
 Wire Wire Line
 	4950 5200 4950 5100
 Connection ~ 4950 5100
@@ -432,28 +428,6 @@ Connection ~ 1550 6350
 Connection ~ 1650 6450
 Connection ~ 1750 6550
 Connection ~ 1850 6650
-$Comp
-L +12V #PWR?
-U 1 1 516A1B75
-P 4550 5000
-F 0 "#PWR?" H 4550 4950 20  0001 C CNN
-F 1 "+12V" H 4550 5100 30  0000 C CNN
-F 2 "" H 4550 5000 60  0000 C CNN
-F 3 "" H 4550 5000 60  0000 C CNN
-	1    4550 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_4X2 P?
-U 1 1 516A1B84
-P 7250 4600
-F 0 "P?" H 7250 4850 50  0000 C CNN
-F 1 "CONN_4X2" V 7250 4600 40  0000 C CNN
-F 2 "" H 7250 4600 60  0000 C CNN
-F 3 "" H 7250 4600 60  0000 C CNN
-	1    7250 4600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7100 5000 7100 5100
 Wire Wire Line
@@ -728,7 +702,7 @@ Wire Wire Line
 	3050 2150 5750 2150
 Connection ~ 4550 2150
 Wire Wire Line
-	4550 1400 4550 1600
+	4550 1350 4550 1600
 Wire Wire Line
 	4550 1500 8450 1500
 Wire Wire Line
@@ -744,17 +718,6 @@ Connection ~ 1550 2750
 Connection ~ 1650 2850
 Connection ~ 1750 2950
 Connection ~ 1850 3050
-$Comp
-L +12V #PWR?
-U 1 1 516A1F78
-P 4550 1400
-F 0 "#PWR?" H 4550 1350 20  0001 C CNN
-F 1 "+12V" H 4550 1500 30  0000 C CNN
-F 2 "" H 4550 1400 60  0000 C CNN
-F 3 "" H 4550 1400 60  0000 C CNN
-	1    4550 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 3150 1850 3050
 Wire Wire Line
@@ -867,4 +830,180 @@ Wire Wire Line
 	6050 4100 7100 4100
 Wire Wire Line
 	7100 4100 7100 4200
+Text HLabel 1400 1350 0    60   Input ~ 0
+LMP_PWR
+Wire Wire Line
+	1400 1350 4550 1350
+Text Label 5350 1500 0    60   ~ 0
+LMP_PWR
+Wire Wire Line
+	4550 5100 4550 5200
+Text Label 4650 5100 0    60   ~ 0
+LMP_PWR
+$Comp
+L CONN_8X2 P?
+U 1 1 516E7441
+P 9500 1600
+F 0 "P?" H 9500 2050 60  0000 C CNN
+F 1 "LMP_0" V 9500 1600 50  0000 C CNN
+F 2 "" H 9500 1600 60  0000 C CNN
+F 3 "" H 9500 1600 60  0000 C CNN
+	1    9500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8X2 P?
+U 1 1 516E744E
+P 9500 2450
+F 0 "P?" H 9500 2900 60  0000 C CNN
+F 1 "LMP_1" V 9500 2450 50  0000 C CNN
+F 2 "" H 9500 2450 60  0000 C CNN
+F 3 "" H 9500 2450 60  0000 C CNN
+	1    9500 2450
+	1    0    0    -1  
+$EndComp
+Text Label 6050 3500 0    60   ~ 0
+LMP_0P
+Text Label 6850 3500 0    60   ~ 0
+LMP_1P
+Text Label 7650 3500 0    60   ~ 0
+LMP_2P
+Text Label 8450 3500 0    60   ~ 0
+LMP_3P
+Text Label 6050 5300 0    60   ~ 0
+LMP_0M
+Text Label 6850 5300 0    60   ~ 0
+LMP_1M
+Text Label 7650 5300 0    60   ~ 0
+LMP_2M
+Text Label 8450 5300 0    60   ~ 0
+LMP_3M
+Wire Wire Line
+	9100 1250 8600 1250
+Text Label 8600 1250 0    60   ~ 0
+LMP_0P
+Wire Wire Line
+	9100 1350 8600 1350
+Text Label 8600 1350 0    60   ~ 0
+LMP_0P
+Wire Wire Line
+	9100 1450 8600 1450
+Text Label 8600 1450 0    60   ~ 0
+LMP_0P
+Wire Wire Line
+	9100 1550 8600 1550
+Text Label 8600 1550 0    60   ~ 0
+LMP_0P
+Wire Wire Line
+	9100 1650 8600 1650
+Text Label 8600 1650 0    60   ~ 0
+LMP_1P
+Wire Wire Line
+	9100 1750 8600 1750
+Text Label 8600 1750 0    60   ~ 0
+LMP_1P
+Wire Wire Line
+	9100 1850 8600 1850
+Text Label 8600 1850 0    60   ~ 0
+LMP_1P
+Wire Wire Line
+	9100 1950 8600 1950
+Text Label 8600 1950 0    60   ~ 0
+LMP_1P
+Wire Wire Line
+	9100 2100 8600 2100
+Text Label 8600 2100 0    60   ~ 0
+LMP_2P
+Wire Wire Line
+	9100 2200 8600 2200
+Text Label 8600 2200 0    60   ~ 0
+LMP_2P
+Wire Wire Line
+	9100 2300 8600 2300
+Text Label 8600 2300 0    60   ~ 0
+LMP_2P
+Wire Wire Line
+	9100 2400 8600 2400
+Text Label 8600 2400 0    60   ~ 0
+LMP_2P
+Wire Wire Line
+	9100 2500 8600 2500
+Text Label 8600 2500 0    60   ~ 0
+LMP_3P
+Wire Wire Line
+	9100 2600 8600 2600
+Text Label 8600 2600 0    60   ~ 0
+LMP_3P
+Wire Wire Line
+	9100 2700 8600 2700
+Text Label 8600 2700 0    60   ~ 0
+LMP_3P
+Wire Wire Line
+	9100 2800 8600 2800
+Text Label 8600 2800 0    60   ~ 0
+LMP_3P
+Wire Wire Line
+	9900 1250 10450 1250
+Text Label 10450 1250 2    60   ~ 0
+LMP_0M
+Wire Wire Line
+	10450 1350 9900 1350
+Wire Wire Line
+	10450 1450 9900 1450
+Wire Wire Line
+	10450 1550 9900 1550
+Text Label 10450 1350 2    60   ~ 0
+LMP_1M
+Text Label 10450 1450 2    60   ~ 0
+LMP_2M
+Text Label 10450 1550 2    60   ~ 0
+LMP_3M
+Wire Wire Line
+	9900 1650 10450 1650
+Text Label 10450 1650 2    60   ~ 0
+LMP_0M
+Wire Wire Line
+	10450 1750 9900 1750
+Wire Wire Line
+	10450 1850 9900 1850
+Wire Wire Line
+	10450 1950 9900 1950
+Text Label 10450 1750 2    60   ~ 0
+LMP_1M
+Text Label 10450 1850 2    60   ~ 0
+LMP_2M
+Text Label 10450 1950 2    60   ~ 0
+LMP_3M
+Wire Wire Line
+	9900 2100 10450 2100
+Text Label 10450 2100 2    60   ~ 0
+LMP_0M
+Wire Wire Line
+	10450 2200 9900 2200
+Wire Wire Line
+	10450 2300 9900 2300
+Wire Wire Line
+	10450 2400 9900 2400
+Text Label 10450 2200 2    60   ~ 0
+LMP_1M
+Text Label 10450 2300 2    60   ~ 0
+LMP_2M
+Text Label 10450 2400 2    60   ~ 0
+LMP_3M
+Wire Wire Line
+	9900 2500 10450 2500
+Text Label 10450 2500 2    60   ~ 0
+LMP_0M
+Wire Wire Line
+	10450 2600 9900 2600
+Wire Wire Line
+	10450 2700 9900 2700
+Wire Wire Line
+	10450 2800 9900 2800
+Text Label 10450 2600 2    60   ~ 0
+LMP_1M
+Text Label 10450 2700 2    60   ~ 0
+LMP_2M
+Text Label 10450 2800 2    60   ~ 0
+LMP_3M
 $EndSCHEMATC

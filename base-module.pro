@@ -1,4 +1,4 @@
-update=4/16/2013 12:45:50 AM
+update=4/16/2013 8:56:54 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -81,3 +81,4 @@ LibName31=pinball_components
 LibName32=micro-controller
 LibName33=CurrentSense
 LibName34=pinball-power
+LibName35=dips-s

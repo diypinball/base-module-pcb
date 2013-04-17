@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/16/2013 2:34:18 AM
+EESchema Schematic File Version 2  date 4/16/2013 9:07:53 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,6 +33,7 @@ LIBS:pinball_components
 LIBS:micro-controller
 LIBS:CurrentSense
 LIBS:pinball-power
+LIBS:dips-s
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END
@@ -40,7 +41,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 10
 Title ""
-Date "16 apr 2013"
+Date "17 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -306,17 +307,6 @@ F 3 "" H 4000 3300 60  0000 C CNN
 	1    4000 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L +12V #PWR1
-U 1 1 51644F71
-P 1700 900
-F 0 "#PWR1" H 1700 850 20  0001 C CNN
-F 1 "+12V" H 1700 1000 30  0000 C CNN
-F 2 "" H 1700 900 60  0000 C CNN
-F 3 "" H 1700 900 60  0000 C CNN
-	1    1700 900 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1000 1950 1800 1950
 Wire Wire Line
@@ -407,7 +397,7 @@ Connection ~ 3200 3150
 Wire Wire Line
 	1700 1300 1800 1300
 Wire Wire Line
-	1700 900  1700 1300
+	1700 950  1700 1300
 Wire Wire Line
 	1800 1200 1700 1200
 Connection ~ 1700 1200
@@ -438,7 +428,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 3150 6650 3450
 Wire Wire Line
-	6850 3250 6850 3350
+	6850 3350 6850 3250
 Connection ~ 6850 3350
 Wire Wire Line
 	7150 3350 7150 3150
@@ -558,7 +548,7 @@ L CONN_8 P1
 U 1 1 5164D064
 P 2900 4450
 F 0 "P1" V 2850 4450 60  0000 C CNN
-F 1 "CONN_8" V 2950 4450 60  0000 C CNN
+F 1 "SW_0" V 2950 4450 60  0000 C CNN
 F 2 "" H 2900 4450 60  0000 C CNN
 F 3 "" H 2900 4450 60  0000 C CNN
 	1    2900 4450
@@ -701,7 +691,7 @@ Connection ~ 7150 2550
 Connection ~ 8150 2750
 Connection ~ 7650 2650
 Wire Wire Line
-	5950 3350 5950 2450
+	5950 2450 5950 3350
 Wire Wire Line
 	5950 2450 6050 2450
 Wire Wire Line
@@ -728,7 +718,7 @@ L CONN_8 P2
 U 1 1 516A14DE
 P 5500 4450
 F 0 "P2" V 5450 4450 60  0000 C CNN
-F 1 "CONN_8" V 5550 4450 60  0000 C CNN
+F 1 "SW_1" V 5550 4450 60  0000 C CNN
 F 2 "" H 5500 4450 60  0000 C CNN
 F 3 "" H 5500 4450 60  0000 C CNN
 	1    5500 4450
@@ -808,7 +798,7 @@ L CONN_8 P3
 U 1 1 516A1508
 P 2900 5800
 F 0 "P3" V 2850 5800 60  0000 C CNN
-F 1 "CONN_8" V 2950 5800 60  0000 C CNN
+F 1 "SW_2" V 2950 5800 60  0000 C CNN
 F 2 "" H 2900 5800 60  0000 C CNN
 F 3 "" H 2900 5800 60  0000 C CNN
 	1    2900 5800
@@ -888,7 +878,7 @@ L CONN_8 P4
 U 1 1 516A1532
 P 5500 5800
 F 0 "P4" V 5450 5800 60  0000 C CNN
-F 1 "CONN_8" V 5550 5800 60  0000 C CNN
+F 1 "SW_3" V 5550 5800 60  0000 C CNN
 F 2 "" H 5500 5800 60  0000 C CNN
 F 3 "" H 5500 5800 60  0000 C CNN
 	1    5500 5800
@@ -971,4 +961,10 @@ Text Label 2100 6450 2    60   ~ 0
 ROW2_MATRIX
 Text Label 4700 6450 2    60   ~ 0
 ROW3_MATRIX
+Text HLabel 1050 950  0    60   Input ~ 0
+12V_IN
+Wire Wire Line
+	1050 950  1700 950 
+Text Label 1450 950  0    60   ~ 0
+SW_PWR
 $EndSCHEMATC

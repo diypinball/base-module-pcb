@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/16/2013 2:34:18 AM
+EESchema Schematic File Version 2  date 4/16/2013 9:07:53 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,6 +33,7 @@ LIBS:pinball_components
 LIBS:micro-controller
 LIBS:CurrentSense
 LIBS:pinball-power
+LIBS:dips-s
 LIBS:base-module-cache
 EELAYER 27 0
 EELAYER END
@@ -40,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 10
 Title ""
-Date "16 apr 2013"
+Date "17 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -217,4 +218,78 @@ Wire Wire Line
 Wire Wire Line
 	7050 3750 7400 3750
 Connection ~ 7250 3750
+$Comp
+L C C?
+U 1 1 516E8E76
+P 4950 2500
+F 0 "C?" H 4950 2600 40  0000 L CNN
+F 1 "100nF" H 4956 2415 40  0000 L CNN
+F 2 "~" H 4988 2350 30  0000 C CNN
+F 3 "~" H 4950 2500 60  0000 C CNN
+	1    4950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 516E8E83
+P 4950 2250
+F 0 "#PWR?" H 4950 2340 20  0001 C CNN
+F 1 "+5V" H 4950 2340 30  0000 C CNN
+F 2 "" H 4950 2250 60  0000 C CNN
+F 3 "" H 4950 2250 60  0000 C CNN
+	1    4950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 516E8E8F
+P 4950 2750
+F 0 "#PWR?" H 4950 2750 30  0001 C CNN
+F 1 "GND" H 4950 2680 30  0001 C CNN
+F 2 "" H 4950 2750 60  0000 C CNN
+F 3 "" H 4950 2750 60  0000 C CNN
+	1    4950 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2300 4950 2250
+Wire Wire Line
+	4950 2700 4950 2750
+$Comp
+L C C?
+U 1 1 516E8ED2
+P 6350 2500
+F 0 "C?" H 6350 2600 40  0000 L CNN
+F 1 "100nF" H 6356 2415 40  0000 L CNN
+F 2 "~" H 6388 2350 30  0000 C CNN
+F 3 "~" H 6350 2500 60  0000 C CNN
+	1    6350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 516E8ED8
+P 6350 2250
+F 0 "#PWR?" H 6350 2340 20  0001 C CNN
+F 1 "+5V" H 6350 2340 30  0000 C CNN
+F 2 "" H 6350 2250 60  0000 C CNN
+F 3 "" H 6350 2250 60  0000 C CNN
+	1    6350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 516E8EDE
+P 6350 2750
+F 0 "#PWR?" H 6350 2750 30  0001 C CNN
+F 1 "GND" H 6350 2680 30  0001 C CNN
+F 2 "" H 6350 2750 60  0000 C CNN
+F 3 "" H 6350 2750 60  0000 C CNN
+	1    6350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2300 6350 2250
+Wire Wire Line
+	6350 2700 6350 2750
 $EndSCHEMATC
