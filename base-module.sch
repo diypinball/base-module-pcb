@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/18/2013 12:55:47 AM
+EESchema Schematic File Version 2  date 4/18/2013 1:12:38 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -103,6 +103,7 @@ F0 "PowerSupply" 50
 F1 "power-supply.sch" 50
 F2 "50V" U L 1750 1550 60 
 F3 "12V" U L 1750 1650 60 
+F4 "Power_EN" I L 1750 1750 60 
 $EndSheet
 $Sheet
 S 6700 2400 1100 300 
@@ -137,17 +138,17 @@ $EndSheet
 $Sheet
 S 6600 3950 1150 300 
 U 516D6DB7
-F0 "3V3CurrentSense" 50
-F1 "3V3CurrentSense.sch" 50
+F0 "3V3CurrentSense_2" 50
+F1 "3V3CurrentSense_2.sch" 50
 F2 "PWR_IN" I L 6600 4050 60 
 F3 "PWR_OUT" O R 7750 4050 60 
 F4 "SENSE_OUT" O R 7750 4150 60 
 $EndSheet
 $Comp
-L +12V #PWR1
+L +12V #PWR01
 U 1 1 516D8357
 P 6400 4000
-F 0 "#PWR1" H 6400 3950 20  0001 C CNN
+F 0 "#PWR01" H 6400 3950 20  0001 C CNN
 F 1 "+12V" H 6400 4100 30  0000 C CNN
 F 2 "" H 6400 4000 60  0000 C CNN
 F 3 "" H 6400 4000 60  0000 C CNN
@@ -155,10 +156,10 @@ F 3 "" H 6400 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR2
+L +12V #PWR02
 U 1 1 516D85FA
 P 6400 1050
-F 0 "#PWR2" H 6400 1000 20  0001 C CNN
+F 0 "#PWR02" H 6400 1000 20  0001 C CNN
 F 1 "+12V" H 6400 1150 30  0000 C CNN
 F 2 "" H 6400 1050 60  0000 C CNN
 F 3 "" H 6400 1050 60  0000 C CNN
@@ -307,7 +308,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 2850 8050 2800
 Wire Wire Line
-	5450 2850 8050 2850
+	5550 2850 8050 2850
 Wire Wire Line
 	8050 2750 5550 2750
 Wire Wire Line
