@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/18/2013 1:12:38 AM
+EESchema Schematic File Version 2  date 4/19/2013 12:46:09 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,7 +43,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 10
 Title ""
-Date "18 apr 2013"
+Date "19 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -217,7 +217,7 @@ P 6650 3050
 F 0 "D9" H 6650 3150 40  0000 C CNN
 F 1 "ZENERSMALL" H 6650 2950 30  0000 C CNN
 F 2 "~" H 6650 3050 60  0000 C CNN
-F 3 "~" H 6650 3050 60  0000 C CNN
+F 3 "954-BZX84-C3V3235-CHP" H 6650 3050 60  0000 C CNN
 	1    6650 3050
 	0    -1   -1   0   
 $EndComp
@@ -563,7 +563,7 @@ P 1300 4200
 F 0 "D1" H 1450 4075 60  0000 C CNN
 F 1 "BAT54C" H 1300 4350 60  0000 C CNN
 F 2 "~" H 1300 4200 60  0000 C CNN
-F 3 "~" H 1300 4200 60  0000 C CNN
+F 3 "BAT54CLT1GOSCT-ND" H 1300 4200 60  0000 C CNN
 	1    1300 4200
 	1    0    0    -1  
 $EndComp

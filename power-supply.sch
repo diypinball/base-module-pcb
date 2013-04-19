@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/18/2013 1:12:38 AM
+EESchema Schematic File Version 2  date 4/19/2013 12:46:09 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,7 +43,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 10
 Title ""
-Date "18 apr 2013"
+Date "19 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -106,7 +106,7 @@ P 6250 3300
 F 0 "L1" V 6200 3300 40  0000 C CNN
 F 1 "15uH" V 6350 3300 40  0000 C CNN
 F 2 "~" H 6250 3300 60  0000 C CNN
-F 3 "~" H 6250 3300 60  0000 C CNN
+F 3 "445-3579-1-ND" H 6250 3300 60  0000 C CNN
 	1    6250 3300
 	0    -1   -1   0   
 $EndComp
@@ -451,7 +451,7 @@ Connection ~ 8150 3300
 Wire Wire Line
 	3300 3350 3200 3350
 Wire Wire Line
-	3200 3150 3200 3350
+	3200 3350 3200 3150
 Connection ~ 3200 3150
 Wire Wire Line
 	3800 3350 4050 3350
@@ -469,9 +469,9 @@ Connection ~ 3700 4000
 Wire Wire Line
 	3700 3550 3700 3450
 Wire Wire Line
-	3850 3450 3700 3450
+	3700 3450 3850 3450
 Wire Wire Line
-	3850 2950 3850 3450
+	3850 3450 3850 2950
 Connection ~ 3850 3350
 Wire Wire Line
 	3850 2950 1400 2950

@@ -1,11 +1,6 @@
-update=4/16/2013 11:34:53 PM
+update=4/19/2013 12:10:52 AM
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -24,7 +19,6 @@ EdgeLar=80
 TxtLar=120
 MSegLar=120
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -36,6 +30,8 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
+LibName12=Dioden_SMD_RevA_06Sep2012
+LibDir=../base-module-hardware
 [general]
 version=1
 [eeschema]
@@ -84,3 +80,8 @@ LibName34=pinball-power
 LibName35=dips-s
 LibName36=Gajda_cmosieee
 LibName37=Gajda_ttlieee
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/18/2013 1:12:38 AM
+EESchema Schematic File Version 2  date 4/19/2013 12:46:09 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,7 +43,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 10
 Title ""
-Date "18 apr 2013"
+Date "19 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -459,7 +459,7 @@ P 6000 1700
 F 0 "D13" H 6000 1800 40  0000 C CNN
 F 1 "DIODE" H 6000 1600 40  0000 C CNN
 F 2 "~" H 6000 1700 60  0000 C CNN
-F 3 "~" H 6000 1700 60  0000 C CNN
+F 3 "S1M-FDICT-ND" H 6000 1700 60  0000 C CNN
 	1    6000 1700
 	0    -1   -1   0   
 $EndComp

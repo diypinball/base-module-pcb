@@ -1,4 +1,4 @@
-ERC report (4/18/2013 1:11:29 AM)
+ERC report (4/18/2013 7:30:17 PM)
 
 ***** Sheet /
 
@@ -19,7 +19,7 @@ ErrType(3): Pin connected to some others pins but no pin to drive it
 
 ***** Sheet /CurrentSense/
 ErrType(3): Pin connected to some others pins but no pin to drive it
-    @ (125.73 mm,57.15 mm): Pin 1 (power_in) of component #PWR044 is not driven (Net 130).
+    @ (105.41 mm,68.58 mm): Pin 1 (power_in) of component #PWR039 is not driven (Net 130).
 
 ***** Sheet /StandardConnectors/
 
@@ -29,6 +29,6 @@ ErrType(3): Pin connected to some others pins but no pin to drive it
 
 ***** Sheet /Controller/
 ErrType(3): Pin connected to some others pins but no pin to drive it
-    @ (68.58 mm,63.50 mm): Pin 5 (power_in) of component U8 is not driven (Net 38).
+    @ (39.37 mm,105.41 mm): Pin 1 (power_in) of component #PWR065 is not driven (Net 38).
 
  >> Errors ERC: 0
