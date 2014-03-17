@@ -37,11 +37,11 @@ EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 6
-Title ""
+Sheet 4 7
+Title "DIYPinball Base Board"
 Date "17 mar 2014"
-Rev ""
-Comp ""
+Rev "2.0"
+Comp "DIYPinball.ca"
 Comment1 ""
 Comment2 ""
 Comment3 ""
