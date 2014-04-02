@@ -39,7 +39,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 7
 Title "DIYPinball Base Board"
-Date "17 mar 2014"
+Date "2 apr 2014"
 Rev "2.0"
 Comp "DIYPinball.ca"
 Comment1 ""
