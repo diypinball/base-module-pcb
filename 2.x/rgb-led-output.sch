@@ -33,7 +33,7 @@ LIBS:diypinball-parts
 LIBS:dips-s
 LIBS:nxp_armmcu
 LIBS:base-module-hardware-v2-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8

@@ -33,7 +33,7 @@ LIBS:diypinball-parts
 LIBS:dips-s
 LIBS:nxp_armmcu
 LIBS:base-module-hardware-v2-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -424,7 +424,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 2400 750  2400
 Wire Wire Line
-	750  2400 750  3500
+	750  2400 750  4000
 Wire Wire Line
 	750  3500 1050 3500
 Wire Wire Line
@@ -436,7 +436,7 @@ Connection ~ 750  2500
 Wire Wire Line
 	1850 2400 2150 2400
 Wire Wire Line
-	2150 2400 2150 3500
+	2150 2400 2150 4000
 Wire Wire Line
 	2150 3500 1850 3500
 Wire Wire Line
@@ -487,4 +487,28 @@ Wire Wire Line
 	8750 1250 8750 5750
 Wire Wire Line
 	8750 5750 9150 5750
+$Comp
+L GND #PWR?
+U 1 1 538113F2
+P 750 4000
+F 0 "#PWR?" H 750 4000 30  0001 C CNN
+F 1 "GND" H 750 3930 30  0001 C CNN
+F 2 "" H 750 4000 60  0000 C CNN
+F 3 "" H 750 4000 60  0000 C CNN
+	1    750  4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53811406
+P 2150 4000
+F 0 "#PWR?" H 2150 4000 30  0001 C CNN
+F 1 "GND" H 2150 3930 30  0001 C CNN
+F 2 "" H 2150 4000 60  0000 C CNN
+F 3 "" H 2150 4000 60  0000 C CNN
+	1    2150 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2150 3500
+Connection ~ 750  3500
 $EndSCHEMATC
