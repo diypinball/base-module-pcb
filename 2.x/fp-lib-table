@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PinballParts)(type KiCad)(uri ${KIPRJMOD}\PinballParts.pretty)(options "")(descr PinballParts))
+  (lib (name Myelin)(type Github)(uri https://github.com/myelin/myelin-kicad.pretty)(options "")(descr "Myelin parts"))
+)

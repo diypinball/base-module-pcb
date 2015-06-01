@@ -1,6 +1,6 @@
-update=4/2/2014 6:52:59 PM
+update=3/16/2015 1:12:22 PM
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -48,11 +48,6 @@ version=1
 [eeschema]
 version=1
 LibDir=../2.x
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -87,3 +82,17 @@ LibName30=valves
 LibName31=diypinball-parts
 LibName32=dips-s
 LibName33=nxp_armmcu
+LibName34=arm-swd-header
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=PcbnewAdvanced
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
