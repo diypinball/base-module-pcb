@@ -48,21 +48,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4450 4000 2    60   Output ~ 0
-SOLENOID0
-Text HLabel 4450 4100 2    60   Output ~ 0
-SOLENOID1
-Text HLabel 4450 4200 2    60   Output ~ 0
-SOLENOID2
-Text HLabel 4450 4300 2    60   Output ~ 0
-SOLENOID3
-Text HLabel 2050 3200 0    60   Output ~ 0
-SOLENOID4
-Text HLabel 2050 3300 0    60   Output ~ 0
-SOLENOID5
-Text HLabel 2050 3400 0    60   Output ~ 0
-SOLENOID6
 Text HLabel 2050 3500 0    60   Output ~ 0
+SOLENOID0
+Text HLabel 2050 3400 0    60   Output ~ 0
+SOLENOID1
+Text HLabel 2050 3300 0    60   Output ~ 0
+SOLENOID2
+Text HLabel 2050 3200 0    60   Output ~ 0
+SOLENOID3
+Text HLabel 4450 4300 2    60   Output ~ 0
+SOLENOID4
+Text HLabel 4450 4200 2    60   Output ~ 0
+SOLENOID5
+Text HLabel 4450 4100 2    60   Output ~ 0
+SOLENOID6
+Text HLabel 4450 4000 2    60   Output ~ 0
 SOLENOID7
 Text HLabel 2050 2400 0    60   Output ~ 0
 LAMP_ROW0
@@ -724,22 +724,6 @@ SDA
 Text HLabel 9400 4350 2    60   BiDi ~ 0
 SCL
 Wire Wire Line
-	4050 4000 4450 4000
-Wire Wire Line
-	4450 4100 4050 4100
-Wire Wire Line
-	4050 4200 4450 4200
-Wire Wire Line
-	4450 4300 4050 4300
-Wire Wire Line
-	2450 3200 2050 3200
-Wire Wire Line
-	2050 3300 2450 3300
-Wire Wire Line
-	2450 3400 2050 3400
-Wire Wire Line
-	2050 3500 2450 3500
-Wire Wire Line
 	2050 3100 2450 3100
 Wire Wire Line
 	2450 3000 2050 3000
@@ -1154,4 +1138,20 @@ Wire Wire Line
 	2050 2700 2450 2700
 Wire Wire Line
 	2450 2600 2050 2600
+Wire Wire Line
+	4450 4000 4050 4000
+Wire Wire Line
+	4050 4100 4450 4100
+Wire Wire Line
+	4450 4200 4050 4200
+Wire Wire Line
+	4050 4300 4450 4300
+Wire Wire Line
+	2450 3500 2050 3500
+Wire Wire Line
+	2050 3400 2450 3400
+Wire Wire Line
+	2050 3200 2450 3200
+Wire Wire Line
+	2450 3300 2050 3300
 $EndSCHEMATC
