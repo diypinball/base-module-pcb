@@ -86,7 +86,7 @@ Text HLabel 4450 3400 2    60   Input ~ 0
 12V_SENSE
 Text HLabel 4450 3500 2    60   Input ~ 0
 SOLENOID_SENSE
-Text HLabel 4450 3600 2    60   Input ~ 0
+Text HLabel 4450 3800 2    60   Input ~ 0
 LAMP_SENSE
 Text HLabel 2850 1000 0    60   Input ~ 0
 CONTROL_5V
@@ -224,7 +224,7 @@ F 3 "" H 9050 6650 60  0000 C CNN
 	1    9050 6650
 	1    0    0    -1  
 $EndComp
-Text HLabel 4450 3800 2    60   Input ~ 0
+Text HLabel 4450 3600 2    60   Input ~ 0
 VSOL_SENSE
 Text HLabel 4450 3900 2    60   Output ~ 0
 VSOL_MEASURE_CONTROL
@@ -889,13 +889,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 3900 4050 3900
 Wire Wire Line
-	4450 3800 4050 3800
-Wire Wire Line
 	4450 3700 4050 3700
 Wire Wire Line
 	4450 3400 4050 3400
-Wire Wire Line
-	4450 3600 4050 3600
 Wire Wire Line
 	4450 3500 4050 3500
 Wire Wire Line
@@ -1154,4 +1150,8 @@ Wire Wire Line
 	2050 3200 2450 3200
 Wire Wire Line
 	2450 3300 2050 3300
+Wire Wire Line
+	4450 3600 4050 3600
+Wire Wire Line
+	4050 3800 4450 3800
 $EndSCHEMATC
