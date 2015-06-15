@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 5/31/2015 2:30:09 AM
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 6/14/2015 9:58:49 PM
 
 BeginCmp
 TimeStamp = /5323E468/5325B0E2;
@@ -365,56 +365,56 @@ IdModule  = Diodes_SMD:Diode-SMA_Standard;
 EndCmp
 
 BeginCmp
-TimeStamp = /5313CA5C/5315651F;
+TimeStamp = /5313CA5C/55709451;
 Reference = D25;
 ValeurCmp = BAT54C;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /5313CA5C/53156510;
+TimeStamp = /5313CA5C/557098BF;
 Reference = D26;
 ValeurCmp = BAT54C;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /5313CA5C/53156501;
+TimeStamp = /5313CA5C/5570A36E;
 Reference = D27;
 ValeurCmp = BAT54C;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /5313CA5C/531564F2;
+TimeStamp = /5313CA5C/5570A3BE;
 Reference = D28;
 ValeurCmp = BAT54C;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /5313CA5C/531564E3;
+TimeStamp = /5313CA5C/5570AB55;
 Reference = D29;
 ValeurCmp = BAT54C;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /5313CA5C/531564D4;
+TimeStamp = /5313CA5C/5570ABA5;
 Reference = D30;
 ValeurCmp = BAT54C;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /5313CA5C/53156154;
+TimeStamp = /5313CA5C/5570AD93;
 Reference = D31;
 ValeurCmp = BAT54C;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /5313CA5C/53156145;
+TimeStamp = /5313CA5C/5570AEF2;
 Reference = D32;
 ValeurCmp = BAT54C;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
@@ -1667,13 +1667,6 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5311518E/53260007;
-Reference = R122;
-ValeurCmp = 22;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /5311518E/5326114B;
 Reference = R123;
 ValeurCmp = 5.1K 1%;
@@ -1849,9 +1842,9 @@ IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /53277CA6/5327818B;
+TimeStamp = /53277CA6/556AB994;
 Reference = U8;
-ValeurCmp = 5V_SWITCHER;
+ValeurCmp = LM7805CT;
 IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
 EndCmp
 

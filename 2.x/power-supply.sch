@@ -570,17 +570,6 @@ F 3 "~" H 7050 2100 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R122
-U 1 1 53260007
-P 7050 2650
-F 0 "R122" V 7130 2650 40  0000 C CNN
-F 1 "22" V 7057 2651 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6980 2650 30  0000 C CNN
-F 3 "~" H 7050 2650 30  0000 C CNN
-	1    7050 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R121
 U 1 1 53260020
 P 6550 2650
@@ -629,7 +618,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 3800 5850 3800
 Wire Wire Line
-	7050 2900 7050 3000
+	7050 2300 7050 3000
 Wire Wire Line
 	7050 2950 6550 2950
 Wire Wire Line
@@ -642,8 +631,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 1400 6550 2400
 Connection ~ 6550 2000
-Wire Wire Line
-	7050 2400 7050 2300
 $Comp
 L R R127
 U 1 1 5326032A
