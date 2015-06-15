@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 6/14/2015 9:58:49 PM
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 6/15/2015 12:36:17 AM
 
 BeginCmp
 TimeStamp = /5323E468/5325B0E2;
@@ -575,10 +575,10 @@ IdModule  = PinballParts:Socket_MOLEX-KK-RM2-54mm_Lock_16pin_straight;
 EndCmp
 
 BeginCmp
-TimeStamp = /5313CA5C/53155A3D;
+TimeStamp = /5313CA5C/557F0C76;
 Reference = P6;
-ValeurCmp = HE10-32;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x16;
+ValeurCmp = HE10-34;
+IdModule  = PinballParts:BOXHEADER-0.100-34;
 EndCmp
 
 BeginCmp
