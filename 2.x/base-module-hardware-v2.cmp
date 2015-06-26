@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 6/15/2015 12:36:17 AM
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 6/26/2015 10:52:13 AM
 
 BeginCmp
 TimeStamp = /5323E468/5325B0E2;
@@ -1814,14 +1814,14 @@ IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5311518E/556AB3B4;
+TimeStamp = /5311518E/558D7698;
 Reference = U4;
-ValeurCmp = MC78L05ACH;
+ValeurCmp = MC78L05;
 IdModule  = SMD_Packages:SOT-223;
 EndCmp
 
 BeginCmp
-TimeStamp = /5311518E/5323D66C;
+TimeStamp = /5311518E/558D864C;
 Reference = U5;
 ValeurCmp = AP1117IE33G;
 IdModule  = SMD_Packages:SOT-223;

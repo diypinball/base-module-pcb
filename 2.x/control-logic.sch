@@ -302,9 +302,9 @@ F 3 "" H 1200 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5100 4900 2    60   ~ 0
-HEARTBEAT
-Text Label 5100 4800 2    60   ~ 0
 POWER_GOOD
+Text Label 5100 4800 2    60   ~ 0
+HEARTBEAT
 Text Label 4050 1100 2    60   ~ 0
 LOCAL_3V3
 Text Label 4050 1000 2    60   ~ 0

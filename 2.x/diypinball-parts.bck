@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BAT54C
+D Double diode Shottky Cathodes communes
+K DEV DIODE
+$ENDCMP
+#
 $CMP BC846
 D BC850, 45V Vce, 0.1A Ic, Low noise, NPN, SOT-23
 K NPN Low Noise Small Signal Transistor
@@ -27,6 +32,30 @@ $CMP DMP2240UDM
 D DMN2240UDM, 20V Vds, 2A Id, Dual HEXFET MOSFET, SOT-26
 K Dual MOSFET P-Channel MOSFET
 F http://www.diodes.com/datasheets/ds31197.pdf
+$ENDCMP
+#
+$CMP MC78L05
+D MC78L05ACH, Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L05ACH
+D MC78L05ACH, Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L08ACH
+D MC78L08ACH, Positive 100mA 30V Linear Regulator, Fixed Output 8V, SOT-89
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L12ACH
+D MC78L12ACH, Positive 100mA 30V Linear Regulator, Fixed Output 12V, SOT-89
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
 $ENDCMP
 #
 #End Doc Library
