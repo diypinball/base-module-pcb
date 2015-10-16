@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:base-module-hardware-v2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -77,10 +77,10 @@ Wire Wire Line
 	6050 3200 6050 3400
 Connection ~ 5850 3200
 $Comp
-L GND #PWR059
+L GND-RESCUE-base-module-hardware-v2 #PWR061
 U 1 1 5507A530
 P 5850 4800
-F 0 "#PWR059" H 5850 4800 30  0001 C CNN
+F 0 "#PWR061" H 5850 4800 30  0001 C CNN
 F 1 "GND" H 5850 4730 30  0001 C CNN
 F 2 "" H 5850 4800 60  0000 C CNN
 F 3 "" H 5850 4800 60  0000 C CNN
@@ -97,7 +97,7 @@ Connection ~ 5850 4700
 Wire Wire Line
 	5950 4700 5950 4600
 $Comp
-L C C23
+L C-RESCUE-base-module-hardware-v2 C23
 U 1 1 5507C820
 P 7000 4000
 F 0 "C23" H 7000 4100 40  0000 L CNN
@@ -108,7 +108,7 @@ F 3 "~" H 7000 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C24
+L C-RESCUE-base-module-hardware-v2 C24
 U 1 1 5507C82B
 P 7300 4000
 F 0 "C24" H 7300 4100 40  0000 L CNN
@@ -119,7 +119,7 @@ F 3 "~" H 7300 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C25
+L C-RESCUE-base-module-hardware-v2 C25
 U 1 1 5507C85C
 P 7600 4000
 F 0 "C25" H 7600 4100 40  0000 L CNN
@@ -139,7 +139,7 @@ Wire Wire Line
 	7600 3200 7600 3800
 Connection ~ 7300 3200
 $Comp
-L C C26
+L C-RESCUE-base-module-hardware-v2 C26
 U 1 1 5507C903
 P 6150 4900
 F 0 "C26" H 6150 5000 40  0000 L CNN
@@ -150,10 +150,10 @@ F 3 "~" H 6150 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR060
+L GND-RESCUE-base-module-hardware-v2 #PWR062
 U 1 1 5507C932
 P 6150 5200
-F 0 "#PWR060" H 6150 5200 30  0001 C CNN
+F 0 "#PWR062" H 6150 5200 30  0001 C CNN
 F 1 "GND" H 6150 5130 30  0001 C CNN
 F 2 "" H 6150 5200 60  0000 C CNN
 F 3 "" H 6150 5200 60  0000 C CNN
@@ -165,10 +165,10 @@ Wire Wire Line
 Wire Wire Line
 	6150 4700 6150 4600
 $Comp
-L GND #PWR061
+L GND-RESCUE-base-module-hardware-v2 #PWR063
 U 1 1 5507C983
 P 7300 4400
-F 0 "#PWR061" H 7300 4400 30  0001 C CNN
+F 0 "#PWR063" H 7300 4400 30  0001 C CNN
 F 1 "GND" H 7300 4330 30  0001 C CNN
 F 2 "" H 7300 4400 60  0000 C CNN
 F 3 "" H 7300 4400 60  0000 C CNN

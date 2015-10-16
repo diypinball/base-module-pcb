@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:base-module-hardware-v2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -126,7 +126,7 @@ F 3 "" H 7950 5200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R114
+L R-RESCUE-base-module-hardware-v2 R114
 U 1 1 5325B4BA
 P 9650 6200
 F 0 "R114" V 9730 6200 40  0000 C CNN
@@ -137,7 +137,7 @@ F 3 "~" H 9650 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R113
+L R-RESCUE-base-module-hardware-v2 R113
 U 1 1 5325B4C9
 P 9450 6200
 F 0 "R113" V 9530 6200 40  0000 C CNN
@@ -148,7 +148,7 @@ F 3 "~" H 9450 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R112
+L R-RESCUE-base-module-hardware-v2 R112
 U 1 1 5325B4D8
 P 9250 6200
 F 0 "R112" V 9330 6200 40  0000 C CNN
@@ -159,7 +159,7 @@ F 3 "~" H 9250 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R111
+L R-RESCUE-base-module-hardware-v2 R111
 U 1 1 5325B4E7
 P 9050 6200
 F 0 "R111" V 9130 6200 40  0000 C CNN
@@ -170,7 +170,7 @@ F 3 "~" H 9050 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R110
+L R-RESCUE-base-module-hardware-v2 R110
 U 1 1 5325B4F6
 P 8850 6200
 F 0 "R110" V 8930 6200 40  0000 C CNN
@@ -181,7 +181,7 @@ F 3 "~" H 8850 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R109
+L R-RESCUE-base-module-hardware-v2 R109
 U 1 1 5325B505
 P 8650 6200
 F 0 "R109" V 8730 6200 40  0000 C CNN
@@ -192,7 +192,7 @@ F 3 "~" H 8650 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R108
+L R-RESCUE-base-module-hardware-v2 R108
 U 1 1 5325B514
 P 8450 6200
 F 0 "R108" V 8530 6200 40  0000 C CNN
@@ -203,7 +203,7 @@ F 3 "~" H 8450 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R107
+L R-RESCUE-base-module-hardware-v2 R107
 U 1 1 5325B523
 P 8250 6200
 F 0 "R107" V 8330 6200 40  0000 C CNN
@@ -214,7 +214,7 @@ F 3 "~" H 8250 6200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L GND-RESCUE-base-module-hardware-v2 #PWR027
 U 1 1 5325BA22
 P 9050 6650
 F 0 "#PWR027" H 9050 6650 30  0001 C CNN
@@ -231,7 +231,7 @@ VSOL_MEASURE_CONTROL
 Text HLabel 4450 1700 2    60   Output ~ 0
 VSOL_PRECHARGE_PWM
 $Comp
-L GND #PWR028
+L GND-RESCUE-base-module-hardware-v2 #PWR028
 U 1 1 53262BD9
 P 3050 5600
 F 0 "#PWR028" H 3050 5600 30  0001 C CNN
@@ -269,7 +269,7 @@ F 3 "~" H 1900 1700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-base-module-hardware-v2 C5
 U 1 1 53264A23
 P 1500 2000
 F 0 "C5" H 1500 2100 40  0000 L CNN
@@ -280,7 +280,7 @@ F 3 "~" H 1500 2000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-base-module-hardware-v2 C4
 U 1 1 53264A32
 P 1500 1400
 F 0 "C4" H 1500 1500 40  0000 L CNN
@@ -291,7 +291,7 @@ F 3 "~" H 1500 1400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR029
+L GND-RESCUE-base-module-hardware-v2 #PWR029
 U 1 1 53264B7B
 P 1200 2100
 F 0 "#PWR029" H 1200 2100 30  0001 C CNN
@@ -334,29 +334,7 @@ F 3 "~" H 8500 1750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED PG1
-U 1 1 53267B24
-P 10100 1250
-F 0 "PG1" H 10100 1350 50  0000 C CNN
-F 1 "LED" H 10100 1150 50  0000 C CNN
-F 2 "LEDs:LED-0603" H 10100 1250 60  0001 C CNN
-F 3 "~" H 10100 1250 60  0000 C CNN
-	1    10100 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L LED HB1
-U 1 1 53267B33
-P 9800 1250
-F 0 "HB1" H 9800 1350 50  0000 C CNN
-F 1 "LED" H 9800 1150 50  0000 C CNN
-F 2 "LEDs:LED-0603" H 9800 1250 60  0001 C CNN
-F 3 "~" H 9800 1250 60  0000 C CNN
-	1    9800 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L R R102
+L R-RESCUE-base-module-hardware-v2 R102
 U 1 1 53267B42
 P 8500 1100
 F 0 "R102" V 8580 1100 40  0000 C CNN
@@ -367,7 +345,7 @@ F 3 "~" H 8500 1100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R101
+L R-RESCUE-base-module-hardware-v2 R101
 U 1 1 53267B51
 P 8050 1100
 F 0 "R101" V 8130 1100 40  0000 C CNN
@@ -378,7 +356,7 @@ F 3 "~" H 8050 1100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R104
+L R-RESCUE-base-module-hardware-v2 R104
 U 1 1 53267B60
 P 10100 1800
 F 0 "R104" V 10180 1800 40  0000 C CNN
@@ -389,7 +367,7 @@ F 3 "~" H 10100 1800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R103
+L R-RESCUE-base-module-hardware-v2 R103
 U 1 1 53267B6F
 P 9800 1800
 F 0 "R103" V 9880 1800 40  0000 C CNN
@@ -411,7 +389,7 @@ F 3 "" H 9550 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-base-module-hardware-v2 C6
 U 1 1 53267B9C
 P 6350 6150
 F 0 "C6" H 6350 6250 40  0000 L CNN
@@ -422,7 +400,7 @@ F 3 "~" H 6350 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-base-module-hardware-v2 C7
 U 1 1 53267BAB
 P 6600 6150
 F 0 "C7" H 6600 6250 40  0000 L CNN
@@ -433,7 +411,7 @@ F 3 "~" H 6600 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L C-RESCUE-base-module-hardware-v2 C8
 U 1 1 53267BBA
 P 6850 6150
 F 0 "C8" H 6850 6250 40  0000 L CNN
@@ -444,7 +422,7 @@ F 3 "~" H 6850 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L C-RESCUE-base-module-hardware-v2 C9
 U 1 1 53267BC9
 P 7100 6150
 F 0 "C9" H 7100 6250 40  0000 L CNN
@@ -455,7 +433,7 @@ F 3 "~" H 7100 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L C-RESCUE-base-module-hardware-v2 C10
 U 1 1 53267BD8
 P 7350 6150
 F 0 "C10" H 7350 6250 40  0000 L CNN
@@ -466,7 +444,7 @@ F 3 "~" H 7350 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L GND-RESCUE-base-module-hardware-v2 #PWR030
 U 1 1 53268402
 P 6350 6550
 F 0 "#PWR030" H 6350 6550 30  0001 C CNN
@@ -485,7 +463,7 @@ Text Label 7500 1400 0    60   ~ 0
 Text Label 8050 750  0    60   ~ 0
 LOCAL_3V3
 $Comp
-L GND #PWR031
+L GND-RESCUE-base-module-hardware-v2 #PWR031
 U 1 1 53268FE5
 P 8050 2250
 F 0 "#PWR031" H 8050 2250 30  0001 C CNN
@@ -496,7 +474,7 @@ F 3 "" H 8050 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L GND-RESCUE-base-module-hardware-v2 #PWR032
 U 1 1 532697A4
 P 9950 2250
 F 0 "#PWR032" H 9950 2250 30  0001 C CNN
@@ -511,7 +489,7 @@ HEARTBEAT
 Text Label 9300 850  0    60   ~ 0
 POWER_GOOD
 $Comp
-L GND #PWR033
+L GND-RESCUE-base-module-hardware-v2 #PWR033
 U 1 1 5326A151
 P 7850 3100
 F 0 "#PWR033" H 7850 3100 30  0001 C CNN
@@ -534,7 +512,7 @@ RXD
 Text Label 10300 2600 2    60   ~ 0
 TXD
 $Comp
-L GND #PWR034
+L GND-RESCUE-base-module-hardware-v2 #PWR034
 U 1 1 5326B790
 P 10000 3100
 F 0 "#PWR034" H 10000 3100 30  0001 C CNN
@@ -562,7 +540,7 @@ SCL
 Text Label 8400 4050 0    60   ~ 0
 SDA
 $Comp
-L GND #PWR035
+L GND-RESCUE-base-module-hardware-v2 #PWR035
 U 1 1 533CA56F
 P 9100 4150
 F 0 "#PWR035" H 9100 4150 30  0001 C CNN
@@ -573,7 +551,7 @@ F 3 "" H 9100 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R106
+L R-RESCUE-base-module-hardware-v2 R106
 U 1 1 533CAC4E
 P 8950 3650
 F 0 "R106" V 9030 3650 40  0000 C CNN
@@ -584,7 +562,7 @@ F 3 "~" H 8950 3650 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R105
+L R-RESCUE-base-module-hardware-v2 R105
 U 1 1 533CAE0E
 P 8750 3650
 F 0 "R105" V 8830 3650 40  0000 C CNN
@@ -653,7 +631,7 @@ F 3 "" H 2200 6850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L GND-RESCUE-base-module-hardware-v2 #PWR036
 U 1 1 54EC01AF
 P 2200 7650
 F 0 "#PWR036" H 2200 7650 30  0001 C CNN
@@ -672,7 +650,7 @@ LOCAL_3V3
 Text Label 2750 6150 2    60   ~ 0
 LOCAL_5V
 $Comp
-L C C11
+L C-RESCUE-base-module-hardware-v2 C11
 U 1 1 54EC1BB5
 P 3750 7250
 F 0 "C11" H 3750 7350 40  0000 L CNN
@@ -683,7 +661,7 @@ F 3 "~" H 3750 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L C-RESCUE-base-module-hardware-v2 C12
 U 1 1 54EC1E37
 P 4050 7250
 F 0 "C12" H 4050 7350 40  0000 L CNN
@@ -694,7 +672,7 @@ F 3 "~" H 4050 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L GND-RESCUE-base-module-hardware-v2 #PWR037
 U 1 1 54EC1E75
 P 3900 7650
 F 0 "#PWR037" H 3900 7650 30  0001 C CNN
@@ -1154,4 +1132,26 @@ Wire Wire Line
 	4450 3600 4050 3600
 Wire Wire Line
 	4050 3800 4450 3800
+$Comp
+L LED PG1
+U 1 1 5611DBC4
+P 10100 1250
+F 0 "PG1" H 10100 1350 50  0000 C CNN
+F 1 "LED" H 10100 1150 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 10100 1250 60  0001 C CNN
+F 3 "" H 10100 1250 60  0000 C CNN
+	1    10100 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED HB1
+U 1 1 5611DCCF
+P 9800 1250
+F 0 "HB1" H 9800 1350 50  0000 C CNN
+F 1 "LED" H 9800 1150 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 9800 1250 60  0001 C CNN
+F 3 "" H 9800 1250 60  0000 C CNN
+	1    9800 1250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

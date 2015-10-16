@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:base-module-hardware-v2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -172,7 +172,7 @@ F2 "RGB_DATA" I L 9150 5500 60
 F3 "RGB_12V" I L 9150 5300 60 
 $EndSheet
 $Comp
-L GND #PWR01
+L GND-RESCUE-base-module-hardware-v2 #PWR01
 U 1 1 53811406
 P 2250 4600
 F 0 "#PWR01" H 2250 4600 30  0001 C CNN

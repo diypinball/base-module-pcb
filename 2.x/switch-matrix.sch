@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:base-module-hardware-v2-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -69,7 +69,7 @@ COL2
 Text HLabel 1800 3200 0    60   Input ~ 0
 COL3
 $Comp
-L R R91
+L R-RESCUE-base-module-hardware-v2 R91
 U 1 1 53150FDD
 P 2150 2300
 F 0 "R91" V 2230 2300 40  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "~" H 2150 2300 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R93
+L R-RESCUE-base-module-hardware-v2 R93
 U 1 1 53150FED
 P 2150 2600
 F 0 "R93" V 2230 2600 40  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "~" H 2150 2600 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R95
+L R-RESCUE-base-module-hardware-v2 R95
 U 1 1 53150FFD
 P 2150 2900
 F 0 "R95" V 2230 2900 40  0000 C CNN
@@ -102,7 +102,7 @@ F 3 "~" H 2150 2900 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R100
+L R-RESCUE-base-module-hardware-v2 R100
 U 1 1 53151003
 P 2150 3200
 F 0 "R100" V 2230 3200 40  0000 C CNN
@@ -113,7 +113,7 @@ F 3 "~" H 2150 3200 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R88
+L R-RESCUE-base-module-hardware-v2 R88
 U 1 1 53151087
 P 4800 1650
 F 0 "R88" V 4880 1650 40  0000 C CNN
@@ -124,7 +124,7 @@ F 3 "~" H 4800 1650 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R87
+L R-RESCUE-base-module-hardware-v2 R87
 U 1 1 5315108D
 P 4400 1650
 F 0 "R87" V 4480 1650 40  0000 C CNN
@@ -135,7 +135,7 @@ F 3 "~" H 4400 1650 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R86
+L R-RESCUE-base-module-hardware-v2 R86
 U 1 1 53151093
 P 4000 1650
 F 0 "R86" V 4080 1650 40  0000 C CNN
@@ -146,7 +146,7 @@ F 3 "~" H 4000 1650 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R85
+L R-RESCUE-base-module-hardware-v2 R85
 U 1 1 53151099
 P 3600 1650
 F 0 "R85" V 3680 1650 40  0000 C CNN
@@ -165,7 +165,7 @@ COL2_SWITCHED
 Text Label 5700 2600 2    60   ~ 0
 COL3_SWITCHED
 $Comp
-L R R89
+L R-RESCUE-base-module-hardware-v2 R89
 U 1 1 531513F9
 P 7600 1800
 F 0 "R89" V 7680 1800 40  0000 C CNN
@@ -176,7 +176,7 @@ F 3 "~" H 7600 1800 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R90
+L R-RESCUE-base-module-hardware-v2 R90
 U 1 1 531513FF
 P 7600 2100
 F 0 "R90" V 7680 2100 40  0000 C CNN
@@ -187,7 +187,7 @@ F 3 "~" H 7600 2100 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R92
+L R-RESCUE-base-module-hardware-v2 R92
 U 1 1 53151405
 P 7600 2400
 F 0 "R92" V 7680 2400 40  0000 C CNN
@@ -198,7 +198,7 @@ F 3 "~" H 7600 2400 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R94
+L R-RESCUE-base-module-hardware-v2 R94
 U 1 1 5315140B
 P 7600 2700
 F 0 "R94" V 7680 2700 40  0000 C CNN
@@ -209,7 +209,7 @@ F 3 "~" H 7600 2700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R96
+L R-RESCUE-base-module-hardware-v2 R96
 U 1 1 53151411
 P 7950 3050
 F 0 "R96" V 8030 3050 40  0000 C CNN
@@ -220,7 +220,7 @@ F 3 "~" H 7950 3050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R97
+L R-RESCUE-base-module-hardware-v2 R97
 U 1 1 53151417
 P 8150 3050
 F 0 "R97" V 8230 3050 40  0000 C CNN
@@ -231,7 +231,7 @@ F 3 "~" H 8150 3050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R98
+L R-RESCUE-base-module-hardware-v2 R98
 U 1 1 5315141D
 P 8350 3050
 F 0 "R98" V 8430 3050 40  0000 C CNN
@@ -242,7 +242,7 @@ F 3 "~" H 8350 3050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R99
+L R-RESCUE-base-module-hardware-v2 R99
 U 1 1 53151423
 P 8550 3050
 F 0 "R99" V 8630 3050 40  0000 C CNN
@@ -573,12 +573,12 @@ Wire Wire Line
 Wire Wire Line
 	9050 1150 9050 1700
 Wire Wire Line
-	1200 950  4200 950 
+	1200 950  10400 950 
 Connection ~ 4200 1300
 Wire Wire Line
 	4200 950  4200 1300
 $Comp
-L GND #PWR023
+L GND-RESCUE-base-module-hardware-v2 #PWR023
 U 1 1 5315785A
 P 4200 3600
 F 0 "#PWR023" H 4200 3600 30  0001 C CNN
@@ -589,7 +589,7 @@ F 3 "" H 4200 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L GND-RESCUE-base-module-hardware-v2 #PWR024
 U 1 1 53157869
 P 8250 3500
 F 0 "#PWR024" H 8250 3500 30  0001 C CNN
@@ -609,7 +609,7 @@ Wire Wire Line
 	9050 3400 9050 2800
 Connection ~ 8550 3400
 $Comp
-L C C2
+L C-RESCUE-base-module-hardware-v2 C2
 U 1 1 53157E8B
 P 9350 1350
 F 0 "C2" H 9350 1450 40  0000 L CNN
@@ -620,7 +620,7 @@ F 3 "~" H 9350 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L GND-RESCUE-base-module-hardware-v2 #PWR025
 U 1 1 53157E9F
 P 9350 1550
 F 0 "#PWR025" H 9350 1550 30  0001 C CNN
@@ -632,7 +632,7 @@ F 3 "" H 9350 1550 60  0000 C CNN
 $EndComp
 Connection ~ 9050 1150
 $Comp
-L CP C3
+L CP-RESCUE-base-module-hardware-v2 C3
 U 1 1 5315801F
 P 1600 1450
 F 0 "C3" H 1650 1550 40  0000 L CNN
@@ -643,7 +643,7 @@ F 3 "~" H 1600 1450 300 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L GND-RESCUE-base-module-hardware-v2 #PWR026
 U 1 1 53158033
 P 1600 1750
 F 0 "#PWR026" H 1600 1750 30  0001 C CNN
@@ -805,4 +805,24 @@ F 3 "" H 8450 4700 60  0000 C CNN
 	1    8450 4700
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND-RESCUE-base-module-hardware-v2 #PWR?
+U 1 1 561208A7
+P 7800 5600
+F 0 "#PWR?" H 7800 5600 30  0001 C CNN
+F 1 "GND-RESCUE-base-module-hardware-v2" H 7800 5530 30  0001 C CNN
+F 2 "" H 7800 5600 60  0000 C CNN
+F 3 "" H 7800 5600 60  0000 C CNN
+	1    7800 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5500 7800 5500
+Wire Wire Line
+	7800 5500 7800 5600
+Wire Wire Line
+	10400 950  10400 5500
+Wire Wire Line
+	10400 5500 9050 5500
+Connection ~ 4200 950 
 $EndSCHEMATC
