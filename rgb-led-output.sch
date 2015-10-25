@@ -143,7 +143,7 @@ U 1 1 5327812F
 P 5600 3700
 F 0 "K1" V 5550 3700 50  0000 C CNN
 F 1 "CONN_3" V 5650 3700 40  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 5600 3700 60  0001 C BNN
+F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight" H 5600 3700 60  0001 C BNN
 F 3 "" H 5600 3700 60  0000 C CNN
 	1    5600 3700
 	1    0    0    -1  
