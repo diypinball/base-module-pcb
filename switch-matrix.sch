@@ -806,10 +806,10 @@ F 3 "" H 8450 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-base-module-hardware-v2 #PWR?
+L GND-RESCUE-base-module-hardware-v2 #PWR027
 U 1 1 561208A7
 P 7800 5600
-F 0 "#PWR?" H 7800 5600 30  0001 C CNN
+F 0 "#PWR027" H 7800 5600 30  0001 C CNN
 F 1 "GND-RESCUE-base-module-hardware-v2" H 7800 5530 30  0001 C CNN
 F 2 "" H 7800 5600 60  0000 C CNN
 F 3 "" H 7800 5600 60  0000 C CNN
